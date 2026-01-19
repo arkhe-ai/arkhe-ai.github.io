@@ -4,6 +4,7 @@ import Logo from './Logo'
 function Hero() {
   const sectionRef = useRef(null)
 
+  
   useEffect(() => {
     const elements = sectionRef.current?.querySelectorAll('[data-animate]')
     
